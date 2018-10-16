@@ -8,10 +8,12 @@
     <h1>Les catégories</h1>
     <ul>
         {% for categorie in categories %}
-        <li>{{ categorie.title }}</li>
+        <li>{{ categorie.name }}</li>
         {% endfor %}
     </ul>
 </section>
+
+<a href="/categorys/add">Ajouter une catégorie</a>
 
 {% endblock %}
 
